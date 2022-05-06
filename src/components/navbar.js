@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/navbar.css';
+import '../styles/style.css';
 
 // By importing the Navbar.css file, it is added to the DOM whenever this component loads
 
