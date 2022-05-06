@@ -1,9 +1,32 @@
+:root {
+  --ming: #16697aff;
+  --pacific-blue: #489fb5ff;
+  --middle-blue: #82c0ccff;
+  --isabelline: #ede7e3ff;
+  --orange-peel: #ffa62bff;
+  --gruppo: 'gruppo';
+  --licorice: 'licorice';
+  --montserrat: 'montserrat';
+  --mont-alts: 'montserrat alternates';
+  }
+
 .aboutMe {
-    background: #f3e5f5;
+    background: var(--isabelline);
     padding: 20px;
-  }
   
-  .aboutMe h2 {
+}
+  
+.aboutMe h2 {
     text-align: center;
-  }
-  
+    font-family: var(--mont-alts);
+    font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: var(--ming);
+}
+
+a:hover {
+  color: var(--orange-peel);
+}

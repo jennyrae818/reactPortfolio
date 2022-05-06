@@ -1,0 +1,23 @@
+:root {
+    --ming: #16697aff;
+    --pacific-blue: #489fb5ff;
+    --middle-blue: #82c0ccff;
+    --isabelline: #ede7e3ff;
+    --orange-peel: #ffa62bff;
+    --gruppo: 'gruppo';
+    --licorice: 'licorice';
+    --montserrat: 'montserrat';
+    --mont-alts: 'montserrat alternates';
+    }
+
+.footer {
+    font-size: 36px;
+    text-align: center;
+}
+
+
+.fa {
+    display: inline-block;
+    /*float: right; this puts it to the right hand side */
+    margin: 10px;
+}

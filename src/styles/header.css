@@ -1,13 +1,27 @@
+:root {
+  --ming: #16697aff;
+  --pacific-blue: #489fb5ff;
+  --middle-blue: #82c0ccff;
+  --isabelline: #ede7e3ff;
+  --orange-peel: #ffa62bff;
+  --gruppo: 'gruppo';
+  --licorice: 'licorice';
+  --montserrat: 'montserrat';
+  --mont-alts: 'montserrat alternates';
+  }
+
 .header {
-    background: #2e7e62;
+    background: var(--ming);
     height: auto;
   }
   
   .header h1 {
     margin: 0;
-    padding-top: 75px;
+    padding: 40px 20px 40px 20px;
     text-align: center;
     color: white;
+    font-family: var(--mont-alts);
+    font-weight: 400;
     font-size: 60px;
   }
   

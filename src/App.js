@@ -4,6 +4,7 @@ import React from "react";
 import Header from "./components/header";
 import Aboutme from "./components/aboutMe";
 import Navbar from "./components/navbar";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Header />
       <Aboutme />
+      <Footer />
     </div>
   );
 }
