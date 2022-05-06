@@ -1,6 +1,6 @@
 .header {
-    background: #b71775;
-    height: 200px;
+    background: #2e7e62;
+    height: auto;
   }
   
   .header h1 {
@@ -8,6 +8,6 @@
     padding-top: 75px;
     text-align: center;
     color: white;
-    font-size: 3rem;
+    font-size: 60px;
   }
   

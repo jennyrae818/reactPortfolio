@@ -8,19 +8,17 @@ import '../styles/navbar.css';
 // On a style object, we camelCase all property names, and put all of the values in quotes
 // Non quoted values default to "pixels", e.g. height, margin, padding
 
-const styles = {
-  navbarStyle: {
-    background: 'green',
-    justifyContent: 'flex-end',
-  },
-};
 
 // We use JSX curly braces to evaluate the style object on the JSX tag
 
 function Navbar() {
   return (
-    <nav style={styles.navbarStyle} className="navbar">
-      <a href="/">Welcome</a>
+    <nav className="navbar">
+      <a href="/">About Me</a>
+      <a href="/">Portfolio</a>
+      <a href="/">Contact</a>
+      <a href="/">Resume</a>
+
     </nav>
   );
 }

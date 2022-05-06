@@ -8,21 +8,24 @@ import '../styles/header.css';
 // On a style object, we camelCase all property names, and put all of the values in quotes
 // Non quoted values default to "pixels", e.g. height, margin, padding
 
-const styles = {
-  headerStyle: {
-    background: 'red',
-  },
-  headingStyle: {
-    fontSize: '100px',
-  },
-};
+// const styles = {
+//   headerStyle: {
+//     background: 'navy',
+//   },
+//   headingStyle: {
+//     fontSize: '100px',
+//     fontFamily: 'montserrat',
+//   },
+// };
+//style={styles.headerStyle} 
+//style={styles.headingStyle}
 
 // We use JSX curly braces to evaluate the style object
 
 function Header() {
   return (
-    <header style={styles.headerStyle} className="header">
-      <h1 style={styles.headingStyle}>Welcome</h1>
+    <header className="header">
+      <h1>Jenny Sacco</h1>
     </header>
   );
 }

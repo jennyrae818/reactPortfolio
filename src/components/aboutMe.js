@@ -8,17 +8,18 @@ import '../styles/aboutMe.css';
 // On a style object, we camelCase all property names, and put all of the values in quotes
 // Non quoted values default to "pixels", e.g. height, margin, padding
 
-const styles = {
-  sectionStyles: {
-    background: 'orange',
-  },
-};
+// const styles = {
+//   sectionStyles: {
+//     background: 'orange',
+//   },
+// }; 
+// this would need to be referenced down in the 'section' tab    style={styles.sectionStyles} 
 
 // We use JSX curly braces to evaluate the style object on the JSX tag
 
-function Section() {
+function aboutMe() {
   return (
-    <section style={styles.sectionStyles} className="section">
+    <section className="aboutMe">
       <h2>Lorem Ipsum Dolor Sit Amet</h2>
       <p>
         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -63,4 +64,4 @@ function Section() {
   );
 }
 
-export default Section;
+export default aboutMe;
