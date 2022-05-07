@@ -1,18 +1,18 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import React from "react";
-import Header from "./components/header";
-import Aboutme from "./components/aboutMe";
-import Navbar from "./components/navbar";
-import Footer from "./components/footer";
+// import Header from "./components/header";
+// import Aboutme from "./components/pages/aboutMe";
+// import NavTabs from "./components/NavTabs";
+// import Footer from "./components/footer";
+import PageContainer from './components/PageContainer';
 
 function App() {
   return (
+    
     <div>
-      <Navbar />
-      <Header />
-      <Aboutme />
-      <Footer />
+    <PageContainer />
+     
     </div>
   );
 }

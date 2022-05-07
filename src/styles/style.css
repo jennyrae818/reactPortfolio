@@ -10,14 +10,16 @@
   --mont-alts: 'montserrat alternates';
   }
 
+  
+
   /*NAV BAR*/
 
-  .navbar {
+  .navtabs {
     background: var(--pacific-blue);
     text-align: center;
   }
   
-  .navbar a {
+  /* .navtabs a {
     display: inline-block;
     color: white;
     font-family: var(--mont-alts);
@@ -27,10 +29,23 @@
     margin: 0px 10px 0px 10px;
   }
   
-  .navbar a:hover {
+  .navtabs a:hover {
     color: var(--orange-peel)
-  }
- 
+  } */
+/*  
+.nav-item {
+  display: inline-block;
+  color: white;
+  font-family: var(--mont-alts);
+  font-size: 1.5rem;
+  text-decoration: none;
+  line-height: 3;
+  margin: 0px 10px 0px 10px;
+}
+
+.navtabs a:hover {
+  color: var(--orange-peel)
+} */
 
 
 
@@ -52,7 +67,7 @@
 }
 
 .header h1:hover {
-opacity: .5;
+  color: var(--orange-peel);
 
 }
 

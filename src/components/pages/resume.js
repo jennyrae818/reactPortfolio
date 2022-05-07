@@ -1,27 +1,12 @@
 import React from 'react';
-import '../styles/style.css';
+import Footer from '../footer.js';
+//import '../styles/style.css';
 
-// By importing the Section.css file, it is added to the DOM whenever this component loads
-
-// We can also style a component inside of its JavaScript file by adding style properties to its rendered elements
-// Unlike regular HTML, a JSX style property must be an object instead of a string
-// On a style object, we camelCase all property names, and put all of the values in quotes
-// Non quoted values default to "pixels", e.g. height, margin, padding
-
-// const styles = {
-//   sectionStyles: {
-//     background: 'orange',
-//   },
-// }; 
-// this would need to be referenced down in the 'section' tab    style={styles.sectionStyles} 
-
-// We use JSX curly braces to evaluate the style object on the JSX tag
-
-function aboutMe() {
+function Resume() {
   return (
-    <section className="aboutMe">
+    <section className="resume">
     
-      <h2>&#9900;  About Me  &#9900;</h2>
+      <h2>&#9900;  Resume  &#9900;</h2>
                 <p>
                     Hi! My name is Jenny Sacco. 
                 </p>
@@ -46,8 +31,10 @@ function aboutMe() {
                 <p>
                     My goal is to help others through web development!
                 </p>
+                <img className="myphoto" src="/public/images/dogscolor.jpg" alt="doggos" height="200" width="150"></img>
+                <div> <Footer /> </div>
     </section>
   );
 }
 
-export default aboutMe;
+export default Resume;
