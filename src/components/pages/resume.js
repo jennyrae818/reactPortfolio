@@ -8,13 +8,13 @@ function Resume() {
     
       <h2>&#9900;  Resume  &#9900;</h2>
                 <p>
-                    Hi! My name is Jenny Sacco. 
+                   
                 </p>
                 <p>
-                    Best describe myself as an organized, curious minded, creative, helper. 
+                   
                 </p>
                 <p>
-                    I live in Tacoma, WA with my amazing Firefighter/Paramedic husband and two fluffy mini Austrailian Shepards.
+                   
                 </p>
                 <p>
                     Some of the various hats I've worn throughout my life: providing white glove service for 9 years in Private Banking at Merrill Lynch, "little ripper" snowboarding instructor at Mount Bachelor, Assistant Teacher at a wonderful Montessori school in Bellevue, WA, and operations at the only hostel in Bend, OR. 
@@ -23,15 +23,15 @@ function Resume() {
                     In 2017, I walked across the country of Spain over the span of 45 days. Link of "The Way": <a href= 'https://santiago-compostela.net/' target="_blank">The Camino De Santiago</a>
                 </p>
                 <p>
-                    Since 2019, I have proudly been serving my community as a Fire Dispatcher for <a href='https://southsound911.org/' target="_blank">Pierce County.</a>
+                    <a href='https://southsound911.org/' target="_blank">Pierce County.</a>
                 </p>
                 <p>    
-                    I own and operate a small cleaning business named Forrest Green Cleaning, LLC. 
+                     
                 </p>
                 <p>
-                    My goal is to help others through web development!
+                  
                 </p>
-                <img className="myphoto" src="/public/images/dogscolor.jpg" alt="doggos" height="200" width="150"></img>
+                
                 <div> <Footer /> </div>
     </section>
   );
