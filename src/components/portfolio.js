@@ -13,23 +13,26 @@ function Portfolio() {
         
         <div className="images-container">
 
-        {/* <a href="https://jennyrae818.github.io/eventplanner/" /> */}
-        <img src="./images/Dayplanner2.png" height="300" width="300" alt="PlannerApp pic"/>
+        <a href="https://jennyrae818.github.io/eventplanner/" >
+        <img src="./images/Dayplanner2.png" height="300" width="300" alt="PlannerApp pic"/> </a>
         {/* <p> &#x2191; EventPlanner &#x2191;
             <br>Save your day </br>
             </p> */}
-        {/* <a href="https://jennyrae818.github.io/fanpage/" />    */}
+        <a href="https://jennyrae818.github.io/fanpage/" >   
         <img src="./images/FRAY.png" height="300" width="300" alt="TheFray pic"/>
+        </a>
         {/* <p> &#x2191; Fanpage &#x2191;
             <br>Fun fanpage</br>
             </p> */}
-        {/* <a href="https://jennyrae818.github.io/quiz/" /> */}
+        <a href="https://jennyrae818.github.io/quiz/" >
         <img src="./images/Quiz2.png" height="300" width="300" alt="Quiz pic"/>
+        </a>
         {/* <p> &#x2191; JS Quiz &#x2191;
             <br>Quiz page</br>
             </p> */}
-        {/* <a href="https://jennyrae818.github.io/Cookify/" /> */}
+        <a href="https://jennyrae818.github.io/Cookify/" >
         <img src="./images/Cookify.png" height="300" width="300" alt="Cookify pic"/>
+        </a>
         {/* <p> &#x2191; Cookify &#x2191;
             <br>Ingredient search</br>
             </p> */}
