@@ -1,7 +1,6 @@
 import React from 'react';
-import Footer from '../footer.js';
-//import './styles/style.css';
-//import 'bootstrap/dist/css/bootstrap.css';
+import '../styles/style.css';
+
 
 
 function Contact() {
@@ -26,7 +25,6 @@ function Contact() {
        <button type="submit">Send</button>
        </fieldset>
       </form>
-      <div><Footer /></div>
     </div>
     // <section className="contact">
     //   <h2>&#9900;  Contact Me  &#9900;</h2>
