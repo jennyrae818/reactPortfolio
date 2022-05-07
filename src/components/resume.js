@@ -16,7 +16,7 @@ function Resume() {
                    South Sound 911, Fire Dispatcher Oct 2019-present
                 </p>
                 <p>
-                  Eton School, Teachers Assistant Aug 2018-Jun 2019  
+                  Eton School, Teachers Assistant Aug 2018-June 2019  
                 </p>
                 <p>
                    Mt. Bachelor, "Litter Ripper" Snowboarding Instructor Season of 2017-2018
