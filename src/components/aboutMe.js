@@ -31,7 +31,10 @@ function aboutMe() {
                 <p>
                     My goal is to help others through web development!
                 </p>
-                <img className="myphoto" src="/public/images/dogscolor.jpg" alt="doggos" height="200" width="150"></img>
+                <div className="aboutme-container">
+                <img className="myphoto" src="./images/IMG_3135.jpeg" alt="doggos" height="200" width="150"></img>
+                <img className="myphoto" src="./images/IMG_2270.jpeg" alt="saccos" height="200" width="150"></img>
+                </div>
     </section>
    
   );
