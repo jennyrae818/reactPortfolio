@@ -13,6 +13,19 @@ function Portfolio() {
         
         <div className="images-container">
 
+        <a href="https://quiz-hub-2022.herokuapp.com/login" >
+        <img src="./images/Quizhub.png" height="300" width="300" alt="Quizhub pic"/>
+        </a>
+        {/* <p> &#x2191; QuizHub &#x2191;</p>
+            <p>Make and Take a Quiz
+            </p> */}
+
+        <a href="http://www.forrestgreencleaning.com" >
+        <img src="./images/cleaning.png" height="300" width="300" alt="Cleaning pic"/>
+        </a>
+        {/* <p> &#x2191; Cookify &#x2191;
+            <br>Ingredient search</br>
+            </p> */}
         <a href="https://jennyrae818.github.io/eventplanner/" >
         <img src="./images/Dayplanner2.png" height="300" width="300" alt="PlannerApp pic"/> </a>
         {/* <p> &#x2191; EventPlanner &#x2191;
@@ -30,12 +43,7 @@ function Portfolio() {
         {/* <p> &#x2191; JS Quiz &#x2191;
             <br>Quiz page</br>
             </p> */}
-        <a href="https://jennyrae818.github.io/Cookify/" >
-        <img src="./images/Cookify.png" height="300" width="300" alt="Cookify pic"/>
-        </a>
-        {/* <p> &#x2191; Cookify &#x2191;
-            <br>Ingredient search</br>
-            </p> */}
+        
 
         </div>
         </div>
