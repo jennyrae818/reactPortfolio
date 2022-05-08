@@ -1,5 +1,7 @@
 import React from 'react';
 import '../styles/style.css';
+import dogpic from './images/IMG_3135.jpeg';
+import saccospic from './images/IMG_2270.jpeg';
 
 
 function aboutMe() {
@@ -32,8 +34,8 @@ function aboutMe() {
                     My goal is to help others through web development!
                 </p>
                 <div className="aboutme-container">
-                <img className="myphoto" src="./images/IMG_3135.jpeg" alt="doggos" height="200" width="150"></img>
-                <img className="myphoto" src="./images/IMG_2270.jpeg" alt="saccos" height="200" width="150"></img>
+                <img src={dogpic} alt="doggos" height="200" width="150"></img>
+                <img src={saccospic} alt="saccos" height="200" width="150"></img>
                 </div>
     </section>
    
