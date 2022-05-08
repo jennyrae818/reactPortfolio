@@ -5,7 +5,6 @@ import Home from './components/home.js';
 import AboutMe from './components/aboutMe.js';
 import Portfolio from './components/portfolio.js';
 import Contact from './components/contact.js';
-
 import Resume from './components/resume.js';
 
 export default function App() {

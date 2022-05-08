@@ -1,3 +1,39 @@
+import { Link } from "react-router-dom";
+import React from 'react';
+import '../styles/style.css';
+
+
+function NavTabs() {
+  return (
+    
+    <nav className="nav navtabs">
+        <ul className="nav navtabs">
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/aboutme">About</Link>
+          </li>
+            <li>
+            <Link to="/portfolio">Portfolio</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
+          <li>
+            <Link to="/resume">Resume</Link>
+          </li>
+    
+        </ul>
+      </nav>
+     
+    
+  );
+}
+
+export default NavTabs;
+
+
 // import React from 'react';
 // import '../styles/style.css';
 
@@ -37,39 +73,4 @@
 // export default NavTabs;
 
 
-
-import { Link } from "react-router-dom";
-import React from 'react';
-import '../styles/style.css';
-
-
-function NavTabs() {
-  return (
-    
-    <nav className="nav navtabs">
-        <ul className="nav navtabs">
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/aboutme">About</Link>
-          </li>
-            <li>
-            <Link to="/portfolio">Portfolio</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
-          <li>
-            <Link to="/resume">Resume</Link>
-          </li>
-    
-        </ul>
-      </nav>
-     
-    
-  );
-}
-
-export default NavTabs;
 
