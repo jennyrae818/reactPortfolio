@@ -1,13 +1,21 @@
 {
   "files": {
     "main.css": "/reactportfolio/static/css/main.f45000a3.css",
-    "main.js": "/reactportfolio/static/js/main.cf0f6005.js",
+    "main.js": "/reactportfolio/static/js/main.99329ab6.js",
+    "static/media/IMG_3135.jpeg": "/reactportfolio/static/media/IMG_3135.21179f212aaa6357285c.jpeg",
+    "static/media/IMG_2270.jpeg": "/reactportfolio/static/media/IMG_2270.4af4582752014430cf48.jpeg",
+    "static/media/cleaning.png": "/reactportfolio/static/media/cleaning.64ecd402413032feb423.png",
+    "static/media/FRAY.png": "/reactportfolio/static/media/FRAY.d7fc0d5967d61ad0102f.png",
+    "static/media/Weather.png": "/reactportfolio/static/media/Weather.a7054727227cbb281c21.png",
+    "static/media/Dayplanner2.png": "/reactportfolio/static/media/Dayplanner2.35805ae1b3260e5fc6ce.png",
+    "static/media/Quizhub.png": "/reactportfolio/static/media/Quizhub.820efc1e4bdc72924ed3.png",
+    "static/media/Quiz2.png": "/reactportfolio/static/media/Quiz2.ddc966a2d78973f72d2e.png",
     "index.html": "/reactportfolio/index.html",
     "main.f45000a3.css.map": "/reactportfolio/static/css/main.f45000a3.css.map",
-    "main.cf0f6005.js.map": "/reactportfolio/static/js/main.cf0f6005.js.map"
+    "main.99329ab6.js.map": "/reactportfolio/static/js/main.99329ab6.js.map"
   },
   "entrypoints": [
     "static/css/main.f45000a3.css",
-    "static/js/main.cf0f6005.js"
+    "static/js/main.99329ab6.js"
   ]
 }
