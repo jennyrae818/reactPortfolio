@@ -31,6 +31,9 @@ function Portfolio() {
         {/* <p> &#x2191; EventPlanner &#x2191;
             <br>Save your day </br>
             </p> */}
+        <a href="https://jennyrae818.github.io/weatherapp/" >
+        <img src="./images/Weather.png" alt="WeatherApp photo" height="300" width="300"/> </a>
+        
         <a href="https://jennyrae818.github.io/fanpage/" >   
         <img src="./images/FRAY.png" height="300" width="300" alt="TheFray pic"/>
         </a>

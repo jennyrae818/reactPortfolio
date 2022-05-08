@@ -35,7 +35,6 @@ code {
 
 .navtabs li {
     display: inline-block;
-    color: white;
     font-family: var(--mont-alts);
     font-size: 1.5rem;
     text-decoration: none;
