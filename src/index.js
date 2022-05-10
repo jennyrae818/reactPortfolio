@@ -1,6 +1,6 @@
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./components/Layout";
+import { HashRouter, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout.js";
 import Home from './components/home.js';
 import AboutMe from './components/aboutMe.js';
 import Portfolio from './components/portfolio.js';
@@ -9,7 +9,7 @@ import Resume from './components/resume.js';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -19,7 +19,7 @@ export default function App() {
           <Route path="resume" element={<Resume />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
