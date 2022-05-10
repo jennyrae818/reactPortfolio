@@ -39,7 +39,7 @@ This is a new addition to my portfolio using React for the first time since the 
 https://github.com/jennyrae818/reactPortfolio
 
 ## LinkToSite
-
+https://jennyrae818.github.io/reactPortfolio/
 
 ## LinkToLinkedIn
 https://www.linkedin.com/in/jenny-sacco-14024949/ 
