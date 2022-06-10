@@ -20,12 +20,6 @@ function Portfolio() {
         
         <div className="images-container">
 
-        <a href="https://quiz-hub-2022.herokuapp.com/login" rel="noreferrer" target="_blank" >
-        <img src={quizhub} height="300" width="300" alt="Quizhub pic"/>
-        </a>
-        {/* <p> &#x2191; QuizHub &#x2191;</p>
-            <p>Make and Take a Quiz
-            </p> */}
         <a href="https://game-hub-2022.herokuapp.com/" rel="noreferrer" target="_blank" >
         <img src={gamehub} height="300" width="300" alt="Gamehub pic"/>
         </a>
@@ -33,6 +27,13 @@ function Portfolio() {
             <p>Make and Take a Quiz
             </p> */}
 
+        <a href="https://quiz-hub-2022.herokuapp.com/login" rel="noreferrer" target="_blank" >
+        <img src={quizhub} height="300" width="300" alt="Quizhub pic"/>
+        </a>
+        {/* <p> &#x2191; QuizHub &#x2191;</p>
+            <p>Make and Take a Quiz
+            </p> */}
+     
         <a href="http://www.forrestgreencleaning.com" rel="noreferrer" target="_blank" >
         <img src={cleaning} height="300" width="300" alt="Cleaning pic"/>
         </a>
