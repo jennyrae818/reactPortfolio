@@ -6,6 +6,7 @@ import fray from './images/FRAY.png';
 import quiz from './images/Quiz2.png';
 import quizhub from './images/Quizhub.png';
 import weather from './images/Weather.png';
+import gamehub from './images/Gamehub.png';
 
 
 function Portfolio() {
@@ -19,28 +20,34 @@ function Portfolio() {
         
         <div className="images-container">
 
-        <a href="https://quiz-hub-2022.herokuapp.com/login" >
+        <a href="https://quiz-hub-2022.herokuapp.com/login" rel="noreferrer" target="_blank" >
         <img src={quizhub} height="300" width="300" alt="Quizhub pic"/>
         </a>
         {/* <p> &#x2191; QuizHub &#x2191;</p>
             <p>Make and Take a Quiz
             </p> */}
+        <a href="https://game-hub-2022.herokuapp.com/" rel="noreferrer" target="_blank" >
+        <img src={gamehub} height="300" width="300" alt="Gamehub pic"/>
+        </a>
+        {/* <p> &#x2191; QuizHub &#x2191;</p>
+            <p>Make and Take a Quiz
+            </p> */}
 
-        <a href="http://www.forrestgreencleaning.com" >
+        <a href="http://www.forrestgreencleaning.com" rel="noreferrer" target="_blank" >
         <img src={cleaning} height="300" width="300" alt="Cleaning pic"/>
         </a>
         {/* <p> &#x2191; Cookify &#x2191;
             <br>Ingredient search</br>
             </p> */}
-        <a href="https://jennyrae818.github.io/eventplanner/" >
+        <a href="https://jennyrae818.github.io/eventplanner/" rel="noreferrer" target="_blank" >
         <img src={planner} height="300" width="300" alt="PlannerApp pic"/> </a>
         {/* <p> &#x2191; EventPlanner &#x2191;
             <br>Save your day </br>
             </p> */}
-        <a href="https://jennyrae818.github.io/weatherapp/" >
+        <a href="https://jennyrae818.github.io/weatherapp/" rel="noreferrer" target="_blank" >
         <img src={weather} alt="WeatherApp pic" height="300" width="300"/> </a>
         
-        <a href="https://jennyrae818.github.io/fanpage/" >   
+        <a href="https://jennyrae818.github.io/fanpage/" rel="noreferrer" target="_blank" >   
         <img src={fray} height="300" width="300" alt="TheFray pic"/>
         </a>
         {/* <p> &#x2191; Fanpage &#x2191;
